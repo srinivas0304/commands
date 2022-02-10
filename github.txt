@@ -1,0 +1,83 @@
+cgit cmd
+
+1. first of all we need github repos
+
+github.com/framework.git
+
+https://github.com/srinivas0304/framework.git
+
+C:\Users\addla\git\framework//origin
+
+
+srinivas0304   srinivas0304 <asrinivas021@gmail.com>
+
+
+what is git?
+ans) 
+--> git is a distrubuted contrl version system.
+
+--> git bash is a terminal, it like a command prompt unix based.
+
+--> Untracked - for git it doesnt matter with your file.
+
+--> statging area - staging area is a area where we store all the commt files.
+
+--> after file is comes to staging area, it will be commit
+
+--> untracked --> staging area
+
+<--commit <-- unmodified -edit file or remove file.
+
+
+
+git commands:
+
+--> git config --global user.name Srinivas
+
+--> git config --global user.email asrinivass021@gmail.com
+
+to check wether name and email are set or not
+
+--> git config --global user.name
+
+--> git config --global user.email
+
+
+--> git init - initialiation
+
+--> git clone - clone means all the data will be pushed to respctive repo
+
+--> git status
+
+--> git checkout about.html
+    Updated 1 path from the index
+
+--> git checkout -f                                 - to recover n number of files at a time. and it will match with older files.
+
+--> git add -A 
+
+--> git commit -m "File_Name"(within the double quotes)
+
+--> git remote add origin enter url copied from github(https://github.com/srinivas0304/Sections1.git)
+
+--> git push -u origin master - push the code into master 
+
+--> git log
+    commit 047f3073811d9a2fd710dea74f3164d88c73bb73 (HEAD -> master)
+    Author: srinivas0304 <asrinivas021@gmail.com>
+    Date:   Thu Feb 10 12:26:55 2022 +0530
+
+--> git log -p -3 to check last 3 or more commits.
+
+
+
+Suppose if we have updated in our local repo:
+
+--> git status
+
+--> git add .
+
+--> git commit -m "new lines added"
+
+--> git push -u origin master
+
